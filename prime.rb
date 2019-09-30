@@ -1,3 +1,9 @@
-def prime?(number)
-  range (1...-1)
-  
+
+
+prime = true
+[1...-1].each do |number|
+  if number.even?
+    even= false
+  end
+end
+prime
