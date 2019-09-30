@@ -1,5 +1,5 @@
 def prime?(number)
-  range =(1...(number )).to_a
+  range.each
   check=true
   if number < 2
     check = false
